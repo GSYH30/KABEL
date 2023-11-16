@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+.backround {
+    background-color: rgb(41, 41, 41);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(109, 109, 109);
+    width: 370px;
+    border-radius: 7px;
+    height: 100vh;
+    padding: 7px;
+    box-shadow: 12px 12px 7px;
+}
+
+.judul {
+    font-size: 10px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+
+.judul span {
+    margin: 10px;
+}
+
+.isi {
+    text-align: left;
+    margin: 12px;
+}
+
+.isi span{
+    display: flex;
+
+    justify-content: center;
+}
+
+.button {
+    text-align: center;
+}
+
+
+.button button a {
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 7px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.button button a:hover {
+    background-color: rgb(214, 214, 214);
+    padding: 6px;
+    border-radius: 7px;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+.button a {
+    text-decoration: none;
+    color: black;
+    outline: none;
+}
+
+.button a:hover {
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    outline: none;
+}
+

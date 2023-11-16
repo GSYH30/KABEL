@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Press Start 2P';
+}
+
+.backround {
+    background-color: rgb(41, 41, 41);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(109, 109, 109);
+    width: 500px;
+    border-radius: 7px;
+    height: 220px;
+    padding: 7px;
+    box-shadow: 12px 12px 7px;
+}
+
+.isi-box nav {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    align-items: center;
+}
+
+.nav a {
+    border-radius: 7px;
+    text-align: center;
+    width: 100px;
+    background-color: rgb(75, 75, 75);
+    color: black;
+    text-decoration: none;
+    margin: 7px;
+    padding: 7px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    background-color: rgb(150, 150, 150);
+    width: 90px;
+    transition: 0.3s;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+}
+
+.isi-box nav a {
+   color: white; 
+}
+
+.judul {
+    font-size: 20px;
+    color: white;
+}
+
+.judul {
+    margin: 20px;
+    text-align: center;
+}
+
+.angkatan {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    margin: 7px;
+    padding: 7px;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.footer a {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.3s;
+}
+
+.footer span {
+    color: white;
+}
+
+.footer a:hover {
+    color: rgb(255, 154, 22);
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.footer p {
+    color: white;
+    margin: 10px;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 200px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 150px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 120px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 110px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .judul h1 {
+        font-size: 25px;
+    }
+
+    .judul span {
+        font-size: 8px;
+    }
+
+    .footer a{
+        font-size: 6px;
+    }
+
+    .footer p {
+        font-size: 6px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 240px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 210px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 200px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .judul h1 {
+        font-size: 35px;
+    }
+
+    .judul span {
+        font-size: 14px;
+    }
+
+    .footer a{
+        font-size: 14px;
+    }
+
+    .footer p {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 290px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 250px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 240px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .judul h1 {
+        font-size: 35px;
+    }
+
+    .judul span {
+        font-size: 13px;
+    }
+
+    .footer a{
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 390px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 350px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 340px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+    .judul h1 {
+        font-size: 35px;
+    }
+
+    .judul span {
+        font-size: 13px;
+    }
+
+    .footer a{
+        font-size: 15px;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 450px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 420px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 410px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+   
+
+    .judul h1 {
+        font-size: 45px;
+    }
+
+    .judul span {
+        font-size: 15px;
+    }
+
+    .footer a{
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 1850px) {
+    
+    .box {
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(109, 109, 109);
+        width: 450px;
+        border-radius: 7px;
+        height: auto;
+        padding: 7px;
+        box-shadow: 12px 12px 7px;
+    }
+
+    .nav a {
+        border-radius: 7px;
+        text-align: center;
+        width: 420px;
+        background-color: rgb(75, 75, 75);
+        color: black;
+        text-decoration: none;
+        margin: 7px;
+        padding: 7px;
+        transition: 0.3s;
+    }
+    
+    .nav a:hover {
+        background-color: rgb(150, 150, 150);
+        width: 410px;
+        transition: 0.3s;
+        box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    }
+
+   
+
+    .judul h1 {
+        font-size: 45px;
+    }
+
+    .judul span {
+        font-size: 15px;
+    }
+
+    .footer a{
+        font-size: 16px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+}
